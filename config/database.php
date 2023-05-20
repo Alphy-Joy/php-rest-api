@@ -22,9 +22,9 @@ class Database{
             print_r($this->conn->connect_error);
             exit;
         }else{
-            //return $this->conn;
+            return $this->conn;
             //echo "test";
-            print_r($this->conn);
+           // print_r($this->conn);
         }
     }
 }
